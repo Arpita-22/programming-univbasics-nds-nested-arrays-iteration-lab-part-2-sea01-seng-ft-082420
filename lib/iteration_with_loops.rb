@@ -3,8 +3,8 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
   find_min_for_each_day = []
   row_index = 0
-  find_min = 0
   while row_index<src.length do
+    find_min = 0
     element_index = 0
     while element_index<src[row_index].length do
       if src[row_index][element_index]<find_min
