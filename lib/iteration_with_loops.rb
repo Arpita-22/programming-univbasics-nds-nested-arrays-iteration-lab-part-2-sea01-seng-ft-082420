@@ -9,6 +9,7 @@ def find_min_in_nested_arrays(src)
     while element_index<src[row_index].length do
       if src[row_index][element_index]<find_min
         find_min = src[row_index][element_index]
+      end
       element_index +=1
     end
     find_min_for_each_day << find_min
